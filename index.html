@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Шумиловская Вероника Сергеевна — главный врач</title>
+<meta name="description" content="Шумиловская Вероника Сергеевна — главный врач. Консультации, диагностика, профилактика.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-top">
+        <div class="container header-top-inner">
+            <span><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Медицинская, д. 15, корп. 2</span>
+            <span><i class="fas fa-phone"></i> +7 (978) 809-60-93</span>
+        </div>
+    </div>
+    <div class="container header-inner">
+        <a href="#" class="logo">
+            <div class="logo-mark"><i class="fas fa-plus"></i></div>
+            <div class="logo-text">Шумиловская В.С.<small>Главный врач · Терапевт</small></div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#about">О враче</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#schedule">Расписание</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header-cta">
+            <button class="btn-check" id="openCheckBtn"><i class="fas fa-search"></i> Проверить заявку</button>
+            <button class="btn-admin" id="openAdminBtn"><i class="fas fa-user-lock"></i> Кабинет<span class="admin-badge" id="adminBadge">0</span></button>
+            <a href="#contacts" class="btn btn-primary">Записаться</a>
+        </div>
+        <button class="burger" id="burger"><span></span><span></span><span></span></button>
+    </div>
+</header>
+
+<div class="overlay" id="overlay"></div>
+<div class="mobile-menu" id="mobileMenu">
+    <ul>
+        <li><a href="#about">О враче</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#schedule">Расписание</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+    </ul>
+    <a href="#contacts" class="btn btn-primary">Записаться</a>
+    <button class="btn-check" id="openCheckBtnMobile"><i class="fas fa-search"></i> Проверить заявку</button>
+    <button class="btn-admin" id="openAdminBtnMobile"><i class="fas fa-user-lock"></i> Кабинет<span class="admin-badge" id="adminBadgeMobile">0</span></button>
+</div>
+
+<main>
+<section class="hero" id="hero">
+    <div class="container">
+        <div class="hero-grid">
+            <div class="hero-content fade-in">
+                <span class="hero-eyebrow">Медицинский центр</span>
+                <h1>Шумиловская Вероника Сергеевна</h1>
+                <p class="specialty">Главный врач · Врач-терапевт высшей категории · Кандидат медицинских наук</p>
+                <p class="description">Более 5 лет профессиональной практики. Индивидуальный подход, доказательная медицина и внимательное отношение к каждому пациенту — основа моей работы.</p>
+                <div class="hero-buttons">
+                    <a href="#contacts" class="btn btn-primary">Записаться на приём</a>
+                    <a href="#schedule" class="btn btn-outline"><i class="fas fa-calendar-alt"></i> Смотреть расписание</a>
+                </div>
+            </div>
+            <div class="hero-photo fade-in">
+                <div class="photo-wrap">
+                    <div class="photo-frame">
+                        <img src="https://storage.yandexcloud.net/b.fotovssylku.ru/2026/09/29/Screenshot_20260929_104045_VK.jpg" alt="Шумиловская Вероника Сергеевна">
+                    </div>
+                    <div class="photo-badge">
+                        <i class="fas fa-award"></i>
+                        <div class="photo-badge-text"><strong>5+ лет</strong><span>медицинского стажа</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section about" id="about">
+    <div class="container">
+        <h2 class="section-title fade-in">О враче</h2>
+        <div class="section-divider fade-in"></div>
+        <div class="about-grid">
+            <div class="about-text fade-in">
+                <h3>Биография и специализация</h3>
+                <p>Шумиловская Вероника Сергеевна — главный врач многопрофильной клиники, врач-терапевт высшей квалификационной категории. Окончила с отличием Первый Московский государственный медицинский университет им. И.М. Сеченова.</p>
+                <p>Специализируется на диагностике и лечении заболеваний внутренних органов, профилактике хронических неинфекционных заболеваний, а также на комплексной оценке здоровья пациентов всех возрастов.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Терапия и диагностика внутренних заболеваний</li>
+                    <li><i class="fas fa-check"></i> Профилактика и управление хроническими заболеваниями</li>
+                    <li><i class="fas fa-check"></i> Персонализированные программы здоровья</li>
+                    <li><i class="fas fa-check"></i> Организация и контроль лечебного процесса клиники</li>
+                </ul>
+            </div>
+            <div class="about-education fade-in">
+                <h4><i class="fas fa-graduation-cap"></i> Образование и достижения</h4>
+                <div class="edu-item"><strong>Первый МГМУ им. И.М. Сеченова</strong><span>Лечебное дело, диплом с отличием (2005)</span></div>
+                <div class="edu-item"><strong>Ординатура по терапии</strong><span>РНИМУ им. Н.И. Пирогова (2007)</span></div>
+                <div class="edu-item"><strong>Профессиональная переподготовка</strong><span>Организация здравоохранения (2015)</span></div>
+                <div class="edu-item"><strong>Кандидат медицинских наук</strong><span>Диссертация по кардиологии (2012)</span></div>
+                <div class="edu-item"><strong>Член Российского кардиологического общества</strong><span>С 2013 года</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section services" id="services">
+    <div class="container">
+        <h2 class="section-title fade-in">Направления работы</h2>
+        <p class="section-subtitle fade-in">Комплексная диагностика, лечение и профилактика заболеваний внутренних органов</p>
+        <div class="section-divider fade-in"></div>
+        <div class="services-grid">
+            <div class="service-card fade-in"><div class="icon"><i class="fas fa-stethoscope"></i></div><h3>Терапевтическая консультация</h3><p>Комплексный осмотр, постановка диагноза и назначение лечения при заболеваниях внутренних органов.</p></div>
+            <div class="service-card fade-in"><div class="icon"><i class="fas fa-heartbeat"></i></div><h3>Кардиологическая диагностика</h3><p>Оценка работы сердечно-сосудистой системы, расшифровка ЭКГ, ведение пациентов с гипертонией.</p></div>
+            <div class="service-card fade-in"><div class="icon"><i class="fas fa-shield-alt"></i></div><h3>Профилактика заболеваний</h3><p>Разработка индивидуальных программ профилактики, вакцинация, диспансеризация и чек-апы.</p></div>
+            <div class="service-card fade-in"><div class="icon"><i class="fas fa-flask"></i></div><h3>Лабораторная диагностика</h3><p>Назначение и интерпретация анализов, оценка биохимических показателей и гормонального фона.</p></div>
+            <div class="service-card fade-in"><div class="icon"><i class="fas fa-notes-medical"></i></div><h3>Ведение хронических пациентов</h3><p>Длительное наблюдение, коррекция терапии и контроль состояния при хронических заболеваниях.</p></div>
+            <div class="service-card fade-in"><div class="icon"><i class="fas fa-users"></i></div><h3>Семейная медицина</h3><p>Комплексное сопровождение здоровья всей семьи, профилактические осмотры и консультации.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="section schedule" id="schedule">
+    <div class="container">
+        <h2 class="section-title fade-in">Расписание приёма</h2>
+        <p class="section-subtitle fade-in">Кликните на свободное время, чтобы записаться</p>
+        <div class="section-divider fade-in"></div>
+        <div class="schedule-controls fade-in">
+            <button class="schedule-nav-btn" id="prevWeekBtn"><i class="fas fa-chevron-left"></i></button>
+            <div class="schedule-week-label" id="weekLabel">—</div>
+            <button class="schedule-nav-btn" id="nextWeekBtn"><i class="fas fa-chevron-right"></i></button>
+            <button class="schedule-today-btn" id="todayBtn"><i class="fas fa-calendar-day"></i> Сегодня</button>
+        </div>
+        <div class="schedule-legend fade-in">
+            <span class="legend-item"><span class="legend-dot free"></span> Свободно</span>
+            <span class="legend-item"><span class="legend-dot busy"></span> Занято</span>
+            <span class="legend-item"><span class="legend-dot blocked"></span> Недоступно</span>
+            <span class="legend-item"><span class="legend-dot dayoff"></span> Выходной / прошло</span>
+        </div>
+        <div class="schedule-grid-wrapper fade-in">
+            <div class="schedule-grid" id="publicSchedule"></div>
+        </div>
+        <p class="schedule-hint fade-in"><i class="fas fa-info-circle"></i> Кликните на свободное время — откроется форма записи.</p>
+    </div>
+</section>
+
+<section class="section reviews" id="reviews">
+    <div class="container">
+        <h2 class="section-title fade-in">Отзывы пациентов</h2>
+        <p class="section-subtitle fade-in">Что говорят те, кто доверил мне своё здоровье</p>
+        <div class="section-divider fade-in"></div>
+        <div class="reviews-slider fade-in">
+            <div class="reviews-track" id="reviewsTrack">
+                <div class="review-card"><div class="quote-icon"><i class="fas fa-quote-left"></i></div><p class="review-text">«Вероника Сергеевна — врач от Бога. Внимательно выслушала, назначила грамотное обследование и эффективное лечение.»</p><p class="review-author">Елена М.</p><p class="review-detail">Пациентка, 42 года</p></div>
+                <div class="review-card"><div class="quote-icon"><i class="fas fa-quote-left"></i></div><p class="review-text">«Наблюдаюсь у Вероники Сергеевны уже несколько лет. Всегда на связи, подробно объясняет каждый шаг лечения.»</p><p class="review-author">Андрей К.</p><p class="review-detail">Пациент, 55 лет</p></div>
+                <div class="review-card"><div class="quote-icon"><i class="fas fa-quote-left"></i></div><p class="review-text">«Врач высочайшего уровня, профессионал своего дела. Лечение помогло, чувствую себя значительно лучше. Рекомендую!»</p><p class="review-author">Ольга С.</p><p class="review-detail">Пациентка, 38 лет</p></div>
+                <div class="review-card"><div class="quote-icon"><i class="fas fa-quote-left"></i></div><p class="review-text">«Как главный врач, Вероника Сергеевна создала в клинике атмосферу заботы и профессионализма.»</p><p class="review-author">Дмитрий В.</p><p class="review-detail">Пациент, 47 лет</p></div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn" id="prevReview"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots" id="sliderDots"></div>
+                <button class="slider-btn" id="nextReview"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section contacts" id="contacts">
+    <div class="container">
+        <h2 class="section-title fade-in">Контакты и запись на приём</h2>
+        <div class="section-divider fade-in"></div>
+        <div class="contacts-grid">
+            <div class="contact-info fade-in">
+                <h3>Контактная информация</h3>
+                <div class="contact-item"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><div class="contact-text"><strong>Адрес клиники</strong><span>г. Москва, ул. Медицинская, д. 15, корп. 2</span></div></div>
+                <div class="contact-item"><div class="contact-icon"><i class="fas fa-phone-alt"></i></div><div class="contact-text"><strong>Телефон</strong><a href="tel:+74951234567">+7 (495) 123-45-67</a></div></div>
+                <div class="contact-item"><div class="contact-icon"><i class="fas fa-clock"></i></div><div class="contact-text"><strong>Часы работы</strong><span>Пн–Пт: 8:00 – 20:00 · Сб: 9:00 – 15:00 · Вс: выходной</span></div></div>
+            </div>
+            <div class="contact-form fade-in">
+                <h3>Записаться на приём</h3>
+                <p class="form-subtitle">Выберите время в расписании или заполните форму</p>
+                <form id="appointmentForm" novalidate>
+                    <div class="form-group" id="groupName"><label for="name">Ваше имя *</label><input type="text" id="name" placeholder="Иван Иванов" required><span class="error-message">Введите имя</span></div>
+                    <div class="form-group" id="groupPhone"><label for="phone">Телефон *</label><input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required><span class="error-message">Введите корректный телефон</span></div>
+                    <div class="form-group" id="groupService"><label for="service">Направление</label>
+                        <select id="service">
+                            <option value="">— Выберите направление —</option>
+                            <option value="Терапевтическая консультация">Терапевтическая консультация</option>
+                            <option value="Кардиологическая диагностика">Кардиологическая диагностика</option>
+                            <option value="Профилактика заболеваний">Профилактика заболеваний</option>
+                            <option value="Лабораторная диагностика">Лабораторная диагностика</option>
+                            <option value="Ведение хронических пациентов">Ведение хронических пациентов</option>
+                            <option value="Семейная медицина">Семейная медицина</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="groupSlot">
+                        <label for="slotDisplay">Выбранное время</label>
+                        <input type="text" id="slotDisplay" placeholder="Кликните на слот в расписании" readonly>
+                        <span class="slot-clear" id="clearSlotBtn"><i class="fas fa-times"></i></span>
+                    </div>
+                    <div class="form-group" id="groupMessage"><label for="message">Комментарий</label><textarea id="message" placeholder="Удобное время, цель визита..."></textarea></div>
+                    <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i> Спасибо! Заявка принята.
+                        <span class="app-number" id="successAppNumber">№ 000000</span>
+                        <span class="app-number-hint">Сохраните номер — по нему можно проверить статус.</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo"><div class="logo-mark"><i class="fas fa-plus"></i></div><div class="logo-text">Шумиловская В.С.<small>Главный врач · Терапевт</small></div></div>
+                <p>Главный врач многопрофильной клиники. Забота о здоровье пациентов, доказательная медицина и индивидуальный подход.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Навигация</h4>
+                <ul>
+                    <li><a href="#about">О враче</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#schedule">Расписание</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Документы</h4>
+                <ul>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Пользовательское соглашение</a></li>
+                    <li><a href="#">Лицензии и сертификаты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Шумиловская Вероника Сергеевна. Все права защищены.</span>
+            <a href="#">Политика конфиденциальности</a>
+        </div>
+    </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></button>
+
+<div class="modal" id="checkModal">
+    <div class="modal-box">
+        <button class="modal-close" id="closeCheckBtn"><i class="fas fa-times"></i></button>
+        <div class="modal-icon"><i class="fas fa-search"></i></div>
+        <h3>Проверить заявку</h3>
+        <p class="modal-subtitle">Введите номер заявки или телефон</p>
+        <form id="checkForm">
+            <div class="form-group"><label for="checkQuery">Номер заявки или телефон</label><input type="text" id="checkQuery" placeholder="Например: 482915" autocomplete="off"></div>
+            <button type="submit" class="btn btn-primary" style="width:100%;"><i class="fas fa-search"></i> Найти</button>
+        </form>
+        <div class="check-error" id="checkError"><i class="fas fa-exclamation-circle"></i> Заявка не найдена.</div>
+        <div class="check-result" id="checkResult"></div>
+    </div>
+</div>
+
+<div class="modal" id="adminModal">
+    <div class="modal-box" id="adminLoginBox">
+        <button class="modal-close" id="closeAdminBtn"><i class="fas fa-times"></i></button>
+        <div class="modal-icon"><i class="fas fa-user-shield"></i></div>
+        <h3>Личный кабинет</h3>
+        <p class="modal-subtitle">Вход для главного врача</p>
+        <div class="check-error" id="adminError"><i class="fas fa-exclamation-circle"></i> Неверный логин или пароль</div>
+        <form id="adminLoginForm">
+            <div class="form-group"><label for="adminLogin">Логин</label><input type="text" id="adminLogin" placeholder="admin" autocomplete="username"></div>
+            <div class="form-group"><label for="adminPassword">Пароль</label><input type="password" id="adminPassword" placeholder="Пароль" autocomplete="current-password"></div>
+            <button type="submit" class="btn btn-primary" style="width:100%;"><i class="fas fa-sign-in-alt"></i> Войти</button>
+        </form>
+    </div>
+
+    <div class="admin-panel" id="adminPanel">
+        <div class="admin-header">
+            <h3><i class="fas fa-clipboard-list"></i> Панель главного врача</h3>
+            <div class="admin-actions">
+                <span class="admin-user"><i class="fas fa-user-circle"></i> Главный врач</span>
+                <button class="btn-close-panel" id="closePanelBtn"><i class="fas fa-times"></i> Закрыть</button>
+                <button class="btn-logout" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Выйти</button>
+            </div>
+        </div>
+        <div class="admin-tabs">
+            <button class="admin-tab active" data-tab="applications"><i class="fas fa-inbox"></i> Заявки <span class="tab-count" id="tabCountApps">0</span></button>
+            <button class="admin-tab" data-tab="schedule"><i class="fas fa-calendar-alt"></i> Расписание</button>
+            <button class="admin-tab" data-tab="journal"><i class="fas fa-history"></i> Журнал <span class="tab-count" id="tabCountJournal">0</span></button>
+        </div>
+
+        <div class="admin-tab-panel active" id="tab-applications">
+            <div class="admin-filters">
+                <button class="filter-btn active" data-filter="all"><i class="fas fa-list"></i> Все <span class="filter-count" id="countAll">0</span></button>
+                <button class="filter-btn" data-filter="new"><i class="fas fa-circle"></i> Новые <span class="filter-count" id="countNew">0</span></button>
+                <button class="filter-btn" data-filter="progress"><i class="fas fa-hourglass-half"></i> В работе <span class="filter-count" id="countProgress">0</span></button>
+                <button class="filter-btn" data-filter="done"><i class="fas fa-check-circle"></i> Рассмотрено <span class="filter-count" id="countDone">0</span></button>
+                <button class="filter-btn" data-filter="reject"><i class="fas fa-times-circle"></i> Отказано <span class="filter-count" id="countReject">0</span></button>
+            </div>
+            <div class="admin-stats">
+                <div class="stat-card stat-new"><div class="stat-icon"><i class="fas fa-circle"></i></div><div><div class="stat-value" id="statNew">0</div><div class="stat-label">Новые</div></div></div>
+                <div class="stat-card stat-progress"><div class="stat-icon"><i class="fas fa-hourglass-half"></i></div><div><div class="stat-value" id="statProgress">0</div><div class="stat-label">В работе</div></div></div>
+                <div class="stat-card stat-done"><div class="stat-icon"><i class="fas fa-check-circle"></i></div><div><div class="stat-value" id="statDone">0</div><div class="stat-label">Рассмотрено</div></div></div>
+                <div class="stat-card stat-reject"><div class="stat-icon"><i class="fas fa-times-circle"></i></div><div><div class="stat-value" id="statReject">0</div><div class="stat-label">Отказано</div></div></div>
+            </div>
+            <div class="admin-body">
+                <h4><i class="fas fa-list-ul"></i> <span id="listTitle">Все заявки</span></h4>
+                <div class="applications-list" id="applicationsList"></div>
+            </div>
+        </div>
+
+        <div class="admin-tab-panel" id="tab-schedule">
+            <div class="admin-body schedule-editor-body">
+                <div class="schedule-editor-toolbar">
+                    <button class="schedule-nav-btn" id="adminPrevWeekBtn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="schedule-week-label" id="adminWeekLabel">—</div>
+                    <button class="schedule-nav-btn" id="adminNextWeekBtn"><i class="fas fa-chevron-right"></i></button>
+                    <button class="schedule-today-btn" id="adminTodayBtn"><i class="fas fa-calendar-day"></i> Текущая неделя</button>
+                    <button class="journal-btn-export" id="resetScheduleBtn" style="background-color: var(--status-reject-color);"><i class="fas fa-undo"></i> Сбросить</button>
+                </div>
+                <p class="editor-hint"><i class="fas fa-info-circle"></i> Клик по свободному — заблокировать. Клик по заблокированному — разблокировать.</p>
+                <div class="schedule-grid-wrapper"><div class="schedule-grid schedule-grid-editor" id="adminSchedule"></div></div>
+            </div>
+        </div>
+
+        <div class="admin-tab-panel" id="tab-journal">
+            <div class="journal-filters">
+                <div class="journal-filters-left">
+                    <button class="filter-btn active" data-log-filter="all"><i class="fas fa-list"></i> Все <span class="filter-count" id="logCountAll">0</span></button>
+                    <button class="filter-btn" data-log-filter="create"><i class="fas fa-plus-circle"></i> Создание</button>
+                    <button class="filter-btn" data-log-filter="status"><i class="fas fa-exchange-alt"></i> Статусы</button>
+                    <button class="filter-btn" data-log-filter="reply"><i class="fas fa-reply"></i> Ответы</button>
+                    <button class="filter-btn" data-log-filter="schedule"><i class="fas fa-calendar-alt"></i> Расписание</button>
+                    <button class="filter-btn" data-log-filter="delete"><i class="fas fa-trash"></i> Удаления</button>
+                </div>
+                <button class="journal-btn-export" id="exportJournalBtn"><i class="fas fa-download"></i> Скачать журнал</button>
+            </div>
+            <div class="admin-body">
+                <h4><i class="fas fa-history"></i> История всех действий</h4>
+                <div class="journal-list" id="journalList"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
